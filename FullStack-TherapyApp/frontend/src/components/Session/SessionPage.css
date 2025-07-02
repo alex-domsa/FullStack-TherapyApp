@@ -1,0 +1,162 @@
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+.form-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.form-buttons button[type="submit"] {
+  background-color: #3498db;
+  color: white;
+}
+
+.form-buttons button[type="button"] {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.form-buttons button:hover {
+  opacity: 0.9;
+}
+
+.response-message {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.response-message p {
+  color: #2c3e50;
+}
+
+.table-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-section h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.data-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.data-table button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.data-table button:first-child {
+  background-color: #3498db;
+  color: white;
+}
+
+.data-table button:last-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.data-table button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 10px;
+  }
+  
+  .form-section,
+  .table-section {
+    padding: 15px;
+  }
+  
+  .data-table {
+    display: block;
+    overflow-x: auto;
+  }
+} 
